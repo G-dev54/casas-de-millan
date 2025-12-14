@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-image: url('../imagenes/multimedia/casas_de_millan_fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #264027;
+}
+
+.escudo {
+    display: block;
+    margin: 25px auto;
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+}
+
+.encabezado {
+    background: #264027;
+    color: #F2E8CF;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #8C5E3C;
+}
+
+.barra_navegacion {
+    background-color: #3A5A40;
+    border-top: 2px solid #8C5E3C;
+    border-bottom: 2px solid #8C5E3C;
+}
+
+.barra_navegacion ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.barra_navegacion li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.barra_navegacion a {
+    color: #F2E8CF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.barra_navegacion a.activo {
+    background-color: #B5C99A;
+    color: #264027;
+    padding: 10px 16px;
+}
+
+
+.main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(242, 232, 207, 0.80);
+    text-align: justify;
+}
+
+.pie_Pagina {
+    background: #264027;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #8C5E3C;
+    border-bottom: 2px solid #8C5E3C;
+}
+
+.tabla-datos {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.tabla-datos td {
+    border: 1px solid #264027;
+    padding: 8px;
+}
+
+.tabla-datos .icono {
+    width: 50px;
+    text-align: center;
+}
+
+.mapa {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.mapa iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.galeria-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.galeria-tabla td {
+    padding: 15px;
+}
+
+.galeria-tabla img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border: 2px solid #8C5E3C;
+}
+
+.galeria-video {
+    width: 100%;
+    text-align: center;
+}
+
+.galeria-video td {
+    padding: 15px;
+}
+
+.galeria-video iframe {
+    width: 560px;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.form-contacto {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-contacto .campo {
+    margin-bottom: 20px;
+}
+
+.form-contacto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-contacto input[type="text"],
+.form-contacto textarea,
+.form-contacto select {
+    width: 100%;
+    padding: 8px;
+    font-family: Georgia, serif;
+}
+
+.form-contacto input[type="radio"],
+.form-contacto input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form-contacto .botones {
+    text-align: center;
+}
+
+.form-contacto .botones button {
+    margin: 0 10px;
+}

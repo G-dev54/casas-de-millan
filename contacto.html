@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Casas de Millán - Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div id="encabezado" class="encabezado">
+        <h1>Casas de Millán</h1>
+    </div>
+    <div id="barra_navegacion" class="barra_navegacion">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="tradiciones.html">Tradiciones</a></li>
+            <li><a href="datosEstadisticos.html">Datos</a></li>
+            <li><a href="informacionTuristica.html">Información Turística</a></li>
+            <li><a href="contenidoMultimedia.html">Multimedia</a></li>
+            <li><a href="contacto.html" class="activo">Contacto</a></li>
+        </ul>
+    </div>
+    <div id="main" class="main">
+        <h2>Contacto</h2>
+
+        <p>
+            A través del siguiente formulario puedes contactar con el administrador
+            del sitio web para realizar consultas o solicitar información.
+        </p>
+
+        <form method="post" class="form-contacto">
+            <h3>Formulario de Contacto</h3>
+            <div class="campo">
+                <label for="motivo">Motivo:</label>
+                <select id="motivo" name="motivo" required>
+                    <option value="consulta">Consulta</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="reclamacion">Reclamación</option>
+                    <option value="valoracion">Valoración</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="campo">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" cols="50" rows="5" required></textarea>
+            </div>
+            <h3>Intereses</h3>
+            <div class="campo">
+                <label for="visitar">¿Está interesado en visitar el municipio?
+                    <input type="checkbox" id="visitar" name="intereses[]" value="visitar">
+                </label>
+                <label for="conoce">¿Conoce Casas de Millán?
+                    <input type="checkbox" id="conoce" name="intereses[]" value="conoce">
+                </label>
+                <label for="historia">¿Está interesado en la historia de la localidad?
+                    <input type="checkbox" id="historia" name="intereses[]" value="historia">
+                </label>
+                <label for="actividades">¿Está interesado en las actividades de la localidad?
+                    <input type="checkbox" id="actividades" name="intereses[]" value="actividades">
+                </label>
+                <label for="tradiciones">¿Está interesado en las tradiciones de la localidad?
+                    <input type="checkbox" id="tradiciones" name="intereses[]" value="tradiciones">
+                </label>
+            </div>
+            <h3>Ayúdanos a Mejorar</h3>
+            <div class="campo">
+                <p>¿Cuál es tu nivel de satisfacción con esta web?</p>
+
+                <label>
+                    <input type="radio" name="satisfaccion" value="muy_alto">
+                    Muy alto
+                </label>
+
+                <label>
+                    <input type="radio" name="satisfaccion" value="alto">
+                    Alto
+                </label>
+
+                <label>
+                    <input type="radio" name="satisfaccion" value="medio" checked>
+                    Medio
+                </label>
+
+                <label>
+                    <input type="radio" name="satisfaccion" value="bajo">
+                    Bajo
+                </label>
+
+                <label>
+                    <input type="radio" name="satisfaccion" value="muy_bajo">
+                    Muy bajo
+                </label>
+            </div>
+
+
+            <div class="botones">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </div>
+
+        </form>
+    </div>
+    <div id="pie_Pagina" class="pie_Pagina">
+        <p>&copy; 2025 Casas de Millán</p>
+    </div>
+</body>
+
+</html>
